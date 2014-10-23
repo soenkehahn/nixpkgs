@@ -8533,6 +8533,8 @@ let
 
   inherit (gnome3) gsettings_desktop_schemas;
 
+  hasklig = callPackage ../data/fonts/hasklig { };
+
   hicolor_icon_theme = callPackage ../data/icons/hicolor-icon-theme { };
 
   inconsolata = callPackage ../data/fonts/inconsolata {};
